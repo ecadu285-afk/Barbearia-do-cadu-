@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Barbearia Imperial: cortes modernos, barba e estilo. Conheça nossos serviços e solicite seu agendamento.">
+    <meta name="theme-color" content="#101113">
+
+    <title>Barbearia Imperial | Seu estilo, nossa assinatura</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header" id="topo">
+        <div class="container header-content">
+
+            <a href="#inicio" class="logo" aria-label="Barbearia Imperial - Início">
+                IMPERIAL<span>.</span>
+            </a>
+
+            <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <a href="#agendamento" class="btn btn-header">
+                Agendar horário
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Abrir menu"
+                aria-controls="menu-principal"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- PRIMEIRA SEÇÃO -->
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <span class="eyebrow">BARBEARIA IMPERIAL</span>
+
+                    <h1>
+                        Seu estilo.
+                        <span>Nossa assinatura.</span>
+                    </h1>
+
+                    <p>
+                        Mais do que um corte. Uma experiência
+                        feita para quem valoriza estilo,
+                        personalidade e precisão.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#agendamento" class="btn btn-primary">
+                            Agendar meu horário
+                        </a>
+
+                        <a href="#servicos" class="btn btn-outline">
+                            Explorar serviços
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="hero-image"></div>
+                    <div class="hero-decoration"></div>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom">
+                <span>ESTILO</span>
+                <span>PRECISÃO</span>
+                <span>ATITUDE</span>
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section class="section services" id="servicos">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">O QUE FAZEMOS</span>
+                    <h2>Serviços que definem seu estilo.</h2>
+                    <p>
+                        Do clássico ao moderno, cada detalhe
+                        faz parte da sua identidade.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <span class="service-number">01</span>
+                        <h3>Corte Masculino</h3>
+                        <p>
+                            Cortes modernos e clássicos com
+                            acabamento preciso.
+                        </p>
+                        <div class="service-footer">
+                            <strong>R$ 15</strong>
+                            <a href="#agendamento" data-servico="Corte Masculino">
+                                Agendar
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">02</span>
+                        <h3>Barba</h3>
+                        <p>
+                            Modelagem, alinhamento e cuidado
+                            para uma barba impecável.
+                        </p>
+                        <div class="service-footer">
+                            <strong>R$ 10</strong>
+                            <a href="#agendamento" data-servico="Barba">
+                                Agendar
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-number">03</span>
+                        <h3>Corte + Barba</h3>
+                        <p>
+                            A combinação completa para
+                            renovar seu visual.
+                        </p>
+                        <div class="service-footer">
+                            <strong>R$ 30</strong>
+                            <a href="#agendamento" data-servico="Corte + Barba">
+                                Agendar
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section class="section about" id="sobre">
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img
+                        src="assets/images/barbearia.png"
+                        alt="Ambiente da Barbearia Imperial"
+                        loading="lazy"
+                    >
+                </div>
+
+                <div class="about-content">
+                    <span class="eyebrow">SOBRE NÓS</span>
+
+                    <h2>Não é apenas sobre cabelo. É sobre identidade.</h2>
+
+                    <p>
+                        Na Barbearia Imperial, acreditamos que
+                        um bom corte transforma mais do que
+                        a aparência.
+                    </p>
+
+                    <p>
+                        Nosso espaço combina tradição,
+                        técnica e uma visão moderna
+                        do cuidado masculino.
+                    </p>
+
+                    <a href="#agendamento" class="btn btn-primary">
+                        Viva essa experiência
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section class="section gallery" id="galeria">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">NOSSO TRABALHO</span>
+                    <h2>Resultados que falam por si.</h2>
+                    <p>
+                        Conheça alguns estilos e acabamentos
+                        do nosso portfólio.
+                    </p>
+                </div>
+
+                
+
+<div class="gallery-grid">
+    <button class="gallery-item" type="button"
+        aria-label="Ampliar fotografia dos cortes">
+        <img
+            src="assets/images/cortes.png"
+            alt="Três cortes masculinos da Barbearia Imperial"
+            loading="lazy"
+        >
+    </button>
+</div>
+
+</div>
+</section>
+
+
+
+        <!-- AGENDAMENTO -->
+        <section class="section booking" id="agendamento">
+            <div class="container booking-grid">
+
+                <div class="booking-content">
+                    <span class="eyebrow">AGENDAMENTO</span>
+
+                    <h2>Seu próximo visual começa aqui.</h2>
+
+                    <p>
+                        Escolha o serviço, a data e o horário
+                        desejados. Envie sua solicitação
+                        diretamente pelo WhatsApp.
+                    </p>
+
+                    <p class="booking-note">
+                        O agendamento depende de confirmação.
+                    </p>
+                </div>
+
+                <form class="booking-form" id="formAgendamento">
+
+                    <label for="nomeCliente">Seu nome</label>
+                    <input
+                        type="text"
+                        id="nomeCliente"
+                        name="nome"
+                        placeholder="Digite seu nome"
+                        autocomplete="name"
+                        required
+                    >
+
+                    <label for="servicoCliente">Serviço</label>
+                    <select id="servicoCliente" name="servico" required>
+                        <option value="">Selecione um serviço</option>
+                        <option value="Corte Masculino">Corte Masculino</option>
+                        <option value="Barba">Barba</option>
+                        <option value="Corte + Barba">Corte + Barba</option>
+                    </select>
+
+                    <label for="dataCliente">Data desejada</label>
+                    <input
+                        type="date"
+                        id="dataCliente"
+                        name="data"
+                        required
+                    >
+
+                    <label for="horaCliente">Horário desejado</label>
+                    <input
+                        type="time"
+                        id="horaCliente"
+                        name="horario"
+                        required
+                    >
+
+                    <button type="submit" class="btn btn-primary">
+                        Solicitar pelo WhatsApp
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="section contact" id="contato">
+            <div class="container contact-content">
+
+                <span class="eyebrow">CONTATO</span>
+                <h2>Pronto para renovar seu estilo?</h2>
+
+                <p>
+                    Entre em contato e solicite seu próximo horário.
+                </p>
+
+                <a
+                    href="https://wa.me/5582988835803"
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Conversar no WhatsApp
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#inicio" class="logo">
+                IMPERIAL<span>.</span>
+            </a>
+
+            <p>Seu estilo. Nossa assinatura.</p>
+
+            <p>
+                © <span id="ano-atual">2026</span>
+                Barbearia Imperial.
+            </p>
+
+        </div>
+    </footer>
+
+    <!-- VISUALIZADOR DE IMAGENS -->
+    <div
+        class="lightbox"
+        id="lightbox"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Visualização da fotografia"
+        hidden
+    >
+        <button
+            class="lightbox-close"
+            type="button"
+            aria-label="Fechar fotografia"
+        >
+            ×
+        </button>
+
+        <img id="lightbox-image" alt="">
+    </div>
+
+</body>
+</html>
